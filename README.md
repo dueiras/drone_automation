@@ -10,13 +10,15 @@ This folder includes functions used to build a virtual dataset of a quadrotor re
 
 ### Dataset Builder
 
-![alt text](https://github.com/dueiras/drone_automation/blob/main/images/corner_detection.png)
+![Result of corner detection](https://github.com/dueiras/drone_automation/blob/main/images/gate_following.mp4)
 
 To build the dataset, the controller used gets the position of the center of the gate with the informations provided by gazebo and follows the gate's position with a simple PID controller.
 
 The drone's relative position with the gate and the images are then saved.
 
 ### Corner Detection
+
+![Result of corner detection](https://github.com/dueiras/drone_automation/blob/main/images/corner_detection.png)
 
 For the current corner detection script it is supposed that there is only one gate per image and that the gate's color is known.
 
