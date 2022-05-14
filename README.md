@@ -10,7 +10,7 @@ This folder includes functions used to build a virtual dataset of a quadrotor re
 
 ### Dataset Builder
 
-![Result of corner detection](https://github.com/dueiras/drone_automation/blob/main/images/gate_following.mp4)
+![Example of the controller](https://github.com/dueiras/drone_automation/blob/main/images/gate_following.gif)
 
 To build the dataset, the controller used gets the position of the center of the gate with the informations provided by gazebo and follows the gate's position with a simple PID controller.
 
